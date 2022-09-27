@@ -35,8 +35,7 @@ if the ith position value is greater well then we shift that value to the right 
             i = i - 1; //so that we can place values back by 1, so for example if we want to set the 0 index postion element, i(0) - 1 = -1
         }
 
-        array[i+1] = key; //setting the value we checked in the while loop into the array (so for the above example ... array[-1+1] = array[0] ..  and so on)
-        
+        array[i+1] = key; //setting the value we checked in the while loop into the array (so for the above example ... array[-1+1] = array[0] ..  and so on)     
     }
 
     //simply printing the contents of our new array
