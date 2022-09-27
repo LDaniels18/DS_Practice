@@ -15,6 +15,8 @@ i will be used to swap values and check wether the key (which is the current val
 if the ith position value is greater well then we shift that value to the right and the key will remain in the original ith spot
 */
     for(int j = 1; j < n; j++){
+
+        //*note that whenever we re iterate in a for loop, everything is reset including variable declarations
         
         int key = array[j]; //value represented by the for loop at the jth position
 
@@ -37,6 +39,7 @@ if the ith position value is greater well then we shift that value to the right 
         
     }
 
+    //simply printing the contents of our new array
     for(int i = 0; i < n; i++){
         cout << array[i] << endl;
     }
